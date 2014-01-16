@@ -1,0 +1,46 @@
+This file, RegressOutput.txt, was created at 18:25:14 on 22/10/2011
+ 
+Unweighted Least Squares Minimisation
+Linear Regression with intercept
+y = c[0] + c[1]*x1 + c[2]*x2 +c[3]*x3 + . . .
+
+             	Best         	Error        	Coefficient of	t-value      	p-value
+             	Estimate     	             	variation (%)	t            	P > |t|
+c[0]         	10.0         	6.2489E-15   	6.2489E-14   	1.6003E15    	4.4409E-16
+c[1]         	2.6645E-15   	3.2634E-15   	122.4745     	0.8165       	0.5641
+
+x1           	y(expl)      	y(calc)      	weight       	residual     	residual
+             	             	             	             	(unweighted) 	(weighted)
+3.0          	10.0         	10.0         	1.0          	1.7764E-15   	1.7764E-15
+1.0          	10.0         	10.0         	1.0          	-3.5527E-15  	-3.5527E-15
+1.0          	10.0         	10.0         	1.0          	-3.5527E-15  	-3.5527E-15
+
+Sum of squares 2.8399E-29
+ 
+Correlation: x - y data
+Linear Correlation Coefficient (R)	NaN
+ 
+Correlation: y(experimental) - y(calculated)
+Linear Correlation Coefficient	NaN
+
+Correlation coefficients
+             	c[0]         	c[1]         	
+c[0]         	1.0          	-0.8704      	
+c[1]         	-0.8704      	1.0          	
+ 
+Degrees of freedom	1
+Number of data points	3
+Number of estimated paramaters	2
+
+Durbin-Watson d statistic	1.0
+
+
+Coefficient of determination,   =                   NaN
+Adjusted Coefficient of determination,    =         NaN
+Coefficient of determination, F-ratio =             NaN
+Coefficient of determination, F-ratio probability = NaN
+Total (weighted) sum of squares  =                  0.0
+Regression (weighted) sum of squares  =             0.0
+Error (weighted) sum of squares  =                  2.8399E-29
+
+End of file
